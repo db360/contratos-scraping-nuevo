@@ -1,0 +1,16 @@
+[
+  {
+    "name": "JSESSIONID",
+    "value": "0000_H2u0673j6KEhxN0poJ6LFt:prodnod6",
+    "domain": ".contrataciondelestado.es",
+    "path": "/",
+    "expires": -1,
+    "size": 46,
+    "httpOnly": false,
+    "secure": true,
+    "session": true,
+    "priority": "Medium",
+    "sameParty": false,
+    "sourceScheme": "Secure"
+  }
+]
