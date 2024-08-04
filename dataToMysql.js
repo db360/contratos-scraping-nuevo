@@ -62,7 +62,7 @@ async function loadCSVToMySQL(filePath) {
 }
 
 // Ruta al archivo CSV
-const csvFilePath = path.join(__dirname, '/nuevos_datos/02-08-2024-21_licitaciones.csv');
+const csvFilePath = path.join(__dirname, '/nuevos_datos/03-08-2024-11_licitaciones.csv');
 
 // Llamada a la función para cargar datos
 loadCSVToMySQL(csvFilePath);

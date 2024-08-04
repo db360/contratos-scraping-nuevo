@@ -58,9 +58,10 @@ const { default: tableParser } = require("puppeteer-table-parser");
     const mes = String(fecha.getMonth() + 1).padStart(2, "0"); // Mes, con dos dígitos (getMonth() devuelve un valor de 0 a 11)
     const año = fecha.getFullYear(); // Año
     const hora = String(fecha.getHours()).padStart(2, "0"); // Hora, con dos dígitos
+    const minutos = String(fecha.getMinutes()).padStart(2, "0"); // Hora, con dos dígitos
 
     // Formatea la fecha y hora en el formato deseado
-    const fechaFormateada = `${dia}-${mes}-${año}-${hora}`;
+    const fechaFormateada = `${dia}-${mes}-${año}-${hora}${minutos}`;
 
     return fechaFormateada;
   }
@@ -89,7 +90,6 @@ const { default: tableParser } = require("puppeteer-table-parser");
       },
 
       rowTransform: (row, getColumnIndex) => {
-
         const fechas = getColumnIndex("fechas");
         const importe = getColumnIndex("importe");
         const objcontrato = getColumnIndex("objcontrato");
@@ -107,11 +107,9 @@ const { default: tableParser } = require("puppeteer-table-parser");
             .join("; ");
           row[fechas] = fechasFormatted;
         }
-
-              // Envolver cada campo con comillas dobles
-            return row.map(value => `"${value.replace(/"/g, '""')}"`);
       },
     });
+
 
     fs.appendFile(fileName, data + "\n", (err) => {
       if (err) throw err;
@@ -119,7 +117,8 @@ const { default: tableParser } = require("puppeteer-table-parser");
     });
 
     // Verificar si el botón de siguiente página está habilitado
-    const nextButtonSelector = 'input[name="viewns_Z7_AVEQAI930GRPE02BR764FO30G0_:form1:siguienteLink"]';
+    const nextButtonSelector =
+      'input[name="viewns_Z7_AVEQAI930GRPE02BR764FO30G0_:form1:siguienteLink"]';
     const nextButtonDisabled = (await page.$(nextButtonSelector)) === null;
 
     isBtnDisabled = nextButtonDisabled;
