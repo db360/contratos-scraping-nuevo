@@ -1,7 +1,6 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs/promises");
 
-
 (async () => {
   const browser = await puppeteer.launch({
     headless: false,
@@ -37,13 +36,13 @@ const fs = require("fs/promises");
   await page.click(contratosLinkSelector);
 
   await page.waitForSelector(
-    'input[name="viewns_Z7_AVEQAI930GRPE02BR764FO30G0_:perfilComp:linkPrepLic"]'
+    'input[name="viewns_Z7_AVEQAI930GRPE02BR764FO30G0_:perfilComp:linkPrepContratosMenores"]'
   );
   await page.click(
-    'input[name="viewns_Z7_AVEQAI930GRPE02BR764FO30G0_:perfilComp:linkPrepLic"]'
+    'input[name="viewns_Z7_AVEQAI930GRPE02BR764FO30G0_:perfilComp:linkPrepContratosMenores"]'
   );
 
-  const fileName = "./nuevos_datos/" + Date.now() + "_licitaciones.json";
+  const fileName = "./nuevos_datos/" + Date.now() + "_contratos_menores.json";
   await fs.mkdir("./nuevos_datos", { recursive: true });
 
   let jsonData = [];
@@ -54,44 +53,53 @@ const fs = require("fs/promises");
 
     const data = await page.evaluate(() => {
       const rows = Array.from(
-        document.querySelectorAll("#tableLicitacionesPerfilContratante tbody tr")
+        document.querySelectorAll(
+          "#tableLicitacionesPerfilContratante tbody tr"
+        )
       );
       return rows.map((row) => {
         const cells = Array.from(row.querySelectorAll("td"));
+
+        // Dividir el campo estado por \n
+        const estadoText = cells[3]?.innerText.trim() || "";
+        const [estado, fecha] = estadoText
+          .split("\n")
+          .map((part) => part.trim());
+
         return {
-          expediente: cells[0].innerText.trim(),
-          tipo: cells[1].innerText.trim(),
-          objeto: cells[2].innerText.trim().replace(/,/g, ";"),
-          estado: cells[3].innerText.trim(),
-          importe: parseFloat(cells[4]
-            .innerText.trim()
-            .replace(/\./g, "")
-            .replace(",", ".")),
-          fechas: cells[5].innerText.trim().replace(/\s+/g, "").split(";").join("; "),
+          expediente: cells[0]?.innerText.trim() || "",
+          tipo: cells[1]?.innerText.trim() || "",
+          objeto: cells[2]?.innerText.trim().replace(/,/g, ";") || "",
+          estado: estado || "", // Guarda la primera parte como estado
+          fecha: fecha.replace('Adjudicación:', "") || "", // Guarda la segunda parte como fecha
+          importe: parseFloat(
+            cells[4]?.innerText.trim().replace(/\./g, "").replace(",", ".") || ""
+          ),
+          adjudicatario: cells[5]?.innerText.trim().split(",").join(", ") || "",
         };
       });
     });
+
     jsonData.push(...data);
 
     const nextButtonSelector =
       'input[name="viewns_Z7_AVEQAI930GRPE02BR764FO30G0_:form1:siguienteLink"]';
     const nextButton = await page.$(nextButtonSelector);
 
-    if (nextButton && !(await nextButton.evaluate(el => el.disabled))) {
+    if (nextButton && !(await nextButton.evaluate((el) => el.disabled))) {
       await Promise.all([
         nextButton.click(),
         page.waitForNavigation({ waitUntil: "load", timeout: 0 }),
-        page.waitForSelector("#tableLicitacionesPerfilContratante tbody") // Espera a que la tabla se recargue
+        page.waitForSelector("#tableLicitacionesPerfilContratante tbody"), // Espera a que la tabla se recargue
       ]);
     } else {
       isBtnDisabled = true;
     }
   }
 
-  await fs.writeFile(fileName, JSON.stringify(jsonData, null, 2), 'utf8');
+  await fs.writeFile(fileName, JSON.stringify(jsonData, null, 2), "utf8");
 
   console.log("PROCESO TERMINADO");
   console.log(`Datos guardados en ${fileName}`);
   await browser.close();
-
 })();

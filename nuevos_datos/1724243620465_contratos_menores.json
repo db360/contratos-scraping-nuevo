@@ -1,0 +1,380 @@
+[
+  {
+    "expediente": "31200/2024",
+    "tipo": "Suministros",
+    "objeto": "MSU 182/24 Contratación del Suministro en Régimen de Alquiler de Seis Peliculas para su Proyección por el área de Cine y un Encuentro Coloquio",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:23/05/2024",
+    "importe": 4778.38,
+    "adjudicatario": "A CONTRACORRIENTE FILMS S.L.,  AMADEUS COURIER S.L.U.,  AVALON DIST AUDIOVISUAL,  S.L.,  BTEAM PICTURES S.L.,  CARAMEL FILMS S.LU.,  ELASTICA FILMS S.L.,  VÉRTIGO FILMS S.L."
+  },
+  {
+    "expediente": "50369/2024",
+    "tipo": "Suministros",
+    "objeto": "MSU 214/24 Contratación del Suministro para el Alquiler de Seis Peliculas para su Proyección en la Muestra de Verano por el Área de Cine",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:21/06/2024",
+    "importe": 3185.5,
+    "adjudicatario": "A CONTRACORRIENTE FILMS S.L.,  AMADEUS COURIER,  S.L.U.,  BTEAM PICTURES S.L.,  CASTELAO PICTURES,  S.L."
+  },
+  {
+    "expediente": "",
+    "tipo": "",
+    "objeto": "",
+    "estado": "",
+    "fecha": "",
+    "importe": null,
+    "adjudicatario": ""
+  },
+  {
+    "expediente": "52482/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 223/24 Contratación del Servicio de la Celebración del Festibal de Música Coral en el Auditorio José Pernía Calderón",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:27/06/2024",
+    "importe": 5500,
+    "adjudicatario": "ASOCIACIÓN CORAL POLIFÓNICA CIUDAD DE MARBELLA,  ASOCIACIÓN CORO DE MÚSICA GLOBAL,  ASOCIACIÓN CULTURAL NUESTRA SEÑORA DE LA ENCARNACIÓN"
+  },
+  {
+    "expediente": "60827/2024",
+    "tipo": "Suministros",
+    "objeto": "MSU 225/24 Contratación del Suministro de Material Fungible para el Teatro Ciudad de Marbella",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:26/07/2024",
+    "importe": 4380.4,
+    "adjudicatario": "ASTROL ESPECTACULOS SL"
+  },
+  {
+    "expediente": "52379/2024",
+    "tipo": "Suministros",
+    "objeto": "MSU 205/24 Contratación del Suministro y Adquisición de un Dron para la Unidad de Playas a los efectos de controlar los distintos servicios de temporada tras la aprobación inicial de la Ordenanza Reguladora del uso de las Playas del T.M. Marbella",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:01/07/2024",
+    "importe": 3905,
+    "adjudicatario": "ATYGES INGENIERÌA,  S.L."
+  },
+  {
+    "expediente": "62390/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 258/24 Contratación del Servicio Logístico para la Organización de Programas Deportivos en los Distrintos durante la Temporada Estival organizados por la Delegación de Deportes del Excmo. Ayuntamiento de Marbella (Programa Vive el Deporte en tu Barrio)",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:01/08/2024",
+    "importe": 12000,
+    "adjudicatario": "AUDIO MASTER PRODUCCIONES SL"
+  },
+  {
+    "expediente": "59868/2024",
+    "tipo": "Suministros",
+    "objeto": "MSU 237/24 Contratación del Suministro Máquina de Diagnosis para vehículos eléctricos para Taller Parque Móvil Municipal",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:23/07/2024",
+    "importe": 10030,
+    "adjudicatario": "AUTORECAMBIOS EUROPA SA"
+  },
+  {
+    "expediente": "36078/2024",
+    "tipo": "Suministros",
+    "objeto": "MSU 194/24 Contratación del Suministro consistente en el Suministro del Programa Informático \"ZWCAD 2D\" para el Servicio de Patrimonio del Ayuntamiento de Marbella",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:03/06/2024",
+    "importe": 699,
+    "adjudicatario": "Aplicaciones de CAD y CAM GIS S.L."
+  },
+  {
+    "expediente": "62172/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 246/24 Contratación del Servicio para la Realización del Análisis; Diagnostico; Activación y Estudio Económico de la Repercusión Publicitaria en eventos Turísticos",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:01/08/2024",
+    "importe": 11200,
+    "adjudicatario": "CERODOCE CONSULTING SL"
+  },
+  {
+    "expediente": "51448/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 218/24 Contratación del Servicio Curso de Emergencias Acuaticas para el Voluntariado de Protección Civil",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:21/06/2024",
+    "importe": 1364,
+    "adjudicatario": "CHRISTIAN MALCHAIR SALGUERO,  ROOBIN VEENDORP,  VICTOR CABRERO MORCILLO"
+  },
+  {
+    "expediente": "37870/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 190/24 Contratación del Servicio consistente en la Remodelación y Mejora de Infraestructuras en la Calle San Miguel; Tramo Glorieta Marqués de Estella. San Pedro Alcántara. T. M. Marbella (Málaga)",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:31/05/2024",
+    "importe": 12490,
+    "adjudicatario": "CIVILOBRA SOLUCIONES SL"
+  },
+  {
+    "expediente": "62994/2024",
+    "tipo": "Suministros",
+    "objeto": "MSU 235/24 Contratación del Suministro Licencias Herramienta Informática Zendesk de Soporte a Empleados Municipales para la Gestión de Incidenias de la Plataforma de Tramitación Gestion",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:01/08/2024",
+    "importe": 3588.33,
+    "adjudicatario": "CUTTING EDGE SL"
+  },
+  {
+    "expediente": "59711/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 249/24 Contratación del Servicio consistente en Representación del Espectáculo \"WC\" de David Cebrian-incluido en el convenio de adhesion a la Red Andaluza de Teatros Públicos de la Agencia Andaluza de Instituciones Culturales",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:23/07/2024",
+    "importe": 1050,
+    "adjudicatario": "DAVID CEBRIAN ARANGUREN"
+  },
+  {
+    "expediente": "56106/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 227/24 Contratación del Servicio el Cronometraje de varias Pruebas Deportivas Organizadas por la Delegación de Deportes del Excmo. Ayuntamiento de Marbella",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:11/07/2024",
+    "importe": 2406,
+    "adjudicatario": "DORSALCHIP S.L."
+  },
+  {
+    "expediente": "44776/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 204/24 Contratación del Servicio consistente en la Gestión Técnica del Torneo de Ajedrez Marbella correspondiente al XXX Circuito Provincial de Ajedrez Diputación de Málaga a celebrar el 08 de septiembre de 2024",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:31/05/2024",
+    "importe": 750,
+    "adjudicatario": "FEDERACION ANDALUZA DE AJEDREZ"
+  },
+  {
+    "expediente": "63739/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 245/24 Contratación del Servicio para la Inscripción para la organización del evento deportivo \"XXX Circuito Provincial de Baloncesto 3X3 Diputación de Málaga\" Sede de Marbella; que se celebrara el 14 de septiembre en el Polideportivo \"Paco Cantos\"",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:07/08/2024",
+    "importe": 1055,
+    "adjudicatario": "FEDERACIÓN ANDALUZA DE BALONCESTO"
+  },
+  {
+    "expediente": "60803/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 221/24 Contratación del Servicio Seminarios-Talleres para la creación de nuevos negocios de economia circular; conforme al Plan Turístico de Grandes Ciudades de Marbella",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:29/07/2024",
+    "importe": 9917.36,
+    "adjudicatario": "Fundacion General Universidad de Salamanca"
+  },
+  {
+    "expediente": "63942/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 219/24 Contratación del Servicio Curso de Formación para proporcinarles un aumento en sus capacidades para dar respuesta organizativa en el ámbito de Intervención de Interfase Forestal",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:07/08/2024",
+    "importe": 14910,
+    "adjudicatario": "GREENFLAME"
+  },
+  {
+    "expediente": "61325/2024",
+    "tipo": "Suministros",
+    "objeto": "MSU 247/24 Contratación del Suministro de un calibrador de nivel sonoro para el sonometro de la Policía Local de Marbella",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:29/07/2024",
+    "importe": 2167,
+    "adjudicatario": "HOTTING BRÜEL & KJAER IBERICA S.L.U."
+  },
+  {
+    "expediente": "42873/2024",
+    "tipo": "Suministros",
+    "objeto": "MSU 201/24 Contratación del Suministro consistente en agua para eventos de la Delegación de Deportes",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:24/05/2024",
+    "importe": 1755.5,
+    "adjudicatario": "IMPORT MONTES SOCIEDAD LIMITADA"
+  },
+  {
+    "expediente": "60722/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 255/24 Contratación del Servicio de Asistencia a la Feria ATM de Dubai",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:24/07/2024",
+    "importe": 7420,
+    "adjudicatario": "INSTITIUTO DE TURISMO DE ESPAÑA,  O.A."
+  },
+  {
+    "expediente": "61117/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 240/24 Contratación del Servicio de Actualización de Auditoría Energética del Alumbrado Público de la zona sur de San Pedro Alcántara. T.M. Marbella (Málaga)",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:29/07/2024",
+    "importe": 12500,
+    "adjudicatario": "JOSE ANTONIO ADALID SOLDADO"
+  },
+  {
+    "expediente": "61468/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 252/24 Contratación del Servicio Love; Love; Love de Animasur-Incluido en el Convenio de Adhesión a la Red Andaluza de Teatros Públicos de la Agencia Andaluza de Instituciones Culturales",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:30/07/2024",
+    "importe": 991.74,
+    "adjudicatario": "JOSE PASCUAL GARRIDO"
+  },
+  {
+    "expediente": "59799/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 250/24 Contratación del Servicio consistente en la Banda de Otro \"Roeo\" incluido en el convenio de adhesión a la Red Andaluza de Teatros Públicos de la Agencia Andaluza de Instituciones Culturales",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:23/07/2024",
+    "importe": 1500,
+    "adjudicatario": "JOSÉ ALBERTO FONCUBIERTA CAMPANO"
+  },
+  {
+    "expediente": "52753/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 222/24 Contratación del Servicio de la Publicación de Anuncios de Exposición al Público de Acuerdos de Aprobación Inicial de Ordenanzas Fiscales en un Diario de los de Mayor difusión de la Provincia",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:12/07/2024",
+    "importe": 1620,
+    "adjudicatario": "LA OPINIÓN DE MÁLAGA,  S.L."
+  },
+  {
+    "expediente": "45960/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 188/24 Contratación del Servicio consistente en la Instalación Piloto y Estudio Inicial sobre 4 Vehículos de una Plataforma Digital para la Gestión de la Flota de la Delegación de Limpieza del Excmo. Ayuntamiento de Marbella",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:03/06/2024",
+    "importe": 14104.7,
+    "adjudicatario": "MOVISAT TECNOMOVILIDAD S.L."
+  },
+  {
+    "expediente": "61288/2024",
+    "tipo": "Suministros",
+    "objeto": "MSU 239/24 Contratación del Suministro de varios discos duros para la Policia Local de Marbella",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:29/07/2024",
+    "importe": 1064,
+    "adjudicatario": "NEOVEL DESARROLLO A MEDIA S.L."
+  },
+  {
+    "expediente": "45318/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 206/24 Contratación del Servicio consistente en el Servicio de Conserjería y Servicio de Limpieza en Centro Andalucía Lab con motivo de Elecciones Europeas que se celebrarán el domingo 9 de junio de 2024",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:01/06/2024",
+    "importe": 851.83,
+    "adjudicatario": "SERPROCLEAN S.L."
+  },
+  {
+    "expediente": "46038/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 212/14 Contratación del Servicio consistente en Alquiler de Mobiliario para las Elecciones Europeas del 9 de Junio de 2024",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:03/06/2024",
+    "importe": 643.5,
+    "adjudicatario": "SERVICIOS Y ALQUILER PARA EVENTOS SL"
+  },
+  {
+    "expediente": "49217/2024",
+    "tipo": "Suministros",
+    "objeto": "MSU 211/24 Contratación del Suministro Equipo de Impresión de Planos con Escaner para la Digilatización de Documentos",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:19/06/2024",
+    "importe": 5090,
+    "adjudicatario": "SISTEMAS DE OFICINA DE MARBELLA SA"
+  },
+  {
+    "expediente": "48634/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 209/24 Contratación del Servicio del Asesoramiento; Configuración y Formación sobre el Sistema de Seguridad Perimetral del Ayuntamiento de Marbella",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:19/06/2024",
+    "importe": 13487.14,
+    "adjudicatario": "SOLUTIA CYBERSECURITY S.L."
+  },
+  {
+    "expediente": "56727/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 217/24 Contratación del Servicio Estudio Económico del Servicio de Grua en el Municipio de Marbella",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:11/07/2024",
+    "importe": 12500,
+    "adjudicatario": "TEMA INGENIERÍA S.L."
+  },
+  {
+    "expediente": "63105/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 238/24 Contratación del Servicio para la Revisión de cuatro (4) Equipos Tecnicos pertenecientes a la Policia Local de Marbella",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:06/08/2024",
+    "importe": 3810,
+    "adjudicatario": "TRADESEGUR SA"
+  },
+  {
+    "expediente": "50502/2024",
+    "tipo": "Suministros",
+    "objeto": "MSU 213/24 Contratación del Suministro para la Adquisición de Uniformes para la Plantilla de Mercados y Mercadillos adscritos a la Delegación de Comercio",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:21/06/2024",
+    "importe": 894.64,
+    "adjudicatario": "UNIFORMES LUQUE SL"
+  },
+  {
+    "expediente": "61105/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 248/24 Contratación del Servicio de Realización del Estudio del Impacto de las viviendas con fines turisticos en Marbella",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:29/07/2024",
+    "importe": 14500,
+    "adjudicatario": "UNIVERSIDAD DE MALAGA"
+  },
+  {
+    "expediente": "37758/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 196/24 Contratación del Servicio consistente en Reparación Urgente de Vehículos Municipales",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:23/05/2024",
+    "importe": 6970.56,
+    "adjudicatario": "VEINSUR S.A.U."
+  },
+  {
+    "expediente": "61464/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 253/24 Contratación del Servicio Espectáculo Romance de Barrio-Incluido en el Convenio de Adhesión a la Red Andaluza de Teatros Públicos de la Agencia Andaluza de Instituciones Culturales",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:30/07/2024",
+    "importe": 1322.31,
+    "adjudicatario": "VILLA Y MARIN S.L."
+  },
+  {
+    "expediente": "58403/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 244/24 Contratación del Servico para la verificación anual del sonómetro integrador y calibrador acústico marca Brüel & Kjaer",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:01/08/2024",
+    "importe": 324.32,
+    "adjudicatario": "Verificaciones Industriales de Andalucía,  S.A. (VEIASA)"
+  },
+  {
+    "expediente": "45616/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 187/24 Contratación del Servicio consistente en la Representación del Espectáculo \"Sin Red\" del Humorista Tomás García y los servicios necesarios para su producción",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:31/05/2024",
+    "importe": 6135.9,
+    "adjudicatario": "XMUSIC AUDIOVISUALES S.L."
+  },
+  {
+    "expediente": "50700/2024",
+    "tipo": "Suministros",
+    "objeto": "MSU 215/24 Contratación del Suministro del Alquiler de Elementos de Escenografía para Actividades de la Delegación de Enseñanza",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:21/06/2024",
+    "importe": 2150,
+    "adjudicatario": "XMUSIC AUDIOVISUALES S.L."
+  },
+  {
+    "expediente": "53538/2024",
+    "tipo": "Servicios",
+    "objeto": "MSE 224/24 Contratación del Servicio de Producción de una Fan Zone Joven",
+    "estado": "Resuelta",
+    "fecha": "Adjudicación:01/07/2024",
+    "importe": 11040,
+    "adjudicatario": "XMUSIC AUDIOVISUALES S.L."
+  }
+]
