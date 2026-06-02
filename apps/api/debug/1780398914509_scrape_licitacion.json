@@ -1,0 +1,229 @@
+{
+  "meta": {
+    "sourceType": "licitacion",
+    "elapsedMs": 85863,
+    "count": 2125
+  },
+  "sample": [
+    {
+      "sourceType": "licitacion",
+      "expediente": "SE 230/26",
+      "contractType": "Servicios",
+      "objeto": "Contratación del Servicio por cuenta abierta de Adecentamiento de los Parques y Jardines de Titularidad Municipal",
+      "estado": "Publicada",
+      "fechaReferencia": null,
+      "importe": 534.29284,
+      "adjudicatario": null,
+      "fechas": "Present. Oferta:30/06/2026",
+      "sourceUrl": "https://contrataciondelestado.es/wps/portal/plataforma/perfil_contratante/lista_perfiles/!ut/p/z1/jY9Bb4JAEIV_Sw9cd0ZQiMetIq4xYYthgb00K6JZ48IGiP37pa3xJmVuM3nfe29AQg6yVnd9Ub1uanUb9kL6n1SEH5QtPYwSHqL7ngT-fBN7iC5kv4KFt5qLneD-gUWIbLtZ79PZAiPXBzmFxxdDcRo_IpDj9hnI8Qh8CMZe_C-kGEoGLyMihMOPR9kYoo-GnFVZdcQ2bX-reiJYmLE1FA5eO-tgW6lOX3jblA7Sk9E1jVfJ88b_IGqt0NUXGQiwJk1z1NwY-vYNoCjKpg!!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_AVEQAI930GRPE02BR764FO30G0=CZ6_AVEQAI930GRPE02BR764FO3002=LA0=Ecom.ibm.faces.portlet.VIEWID!QCPjspQCPreasigProcQCPAdminAOCReasigProcPortletAppView.jsp==/#Z7_AVEQAI930GRPE02BR764FO30G0",
+      "rawPayload": {
+        "expediente": "SE 230/26",
+        "contractType": "Servicios",
+        "objeto": "Contratación del Servicio por cuenta abierta de Adecentamiento de los Parques y Jardines de Titularidad Municipal",
+        "estado": "Publicada",
+        "fechaReferencia": null,
+        "importeRaw": "534,292.84",
+        "adjudicatario": null,
+        "fechas": "Present. Oferta:30/06/2026"
+      }
+    },
+    {
+      "sourceType": "licitacion",
+      "expediente": "SE 199/26",
+      "contractType": "Servicios",
+      "objeto": "Contratación del Servicio de Diseño, Organización, Ejecución, Seguimiento y Evaluación del Programa de Formación (ÇTalleres; jormadas Empresariales y Webinars) en Desarrollo de la Actuación F.1.1 del Plan Turístico de Grandes Ciudades de Marbella",
+      "estado": "Publicada",
+      "fechaReferencia": null,
+      "importe": 103.30579,
+      "adjudicatario": null,
+      "fechas": "Present. Oferta:12/06/2026",
+      "sourceUrl": "https://contrataciondelestado.es/wps/portal/plataforma/perfil_contratante/lista_perfiles/!ut/p/z1/jY9Bb4JAEIV_Sw9cd0ZQiMetIq4xYYthgb00K6JZ48IGiP37pa3xJmVuM3nfe29AQg6yVnd9Ub1uanUb9kL6n1SEH5QtPYwSHqL7ngT-fBN7iC5kv4KFt5qLneD-gUWIbLtZ79PZAiPXBzmFxxdDcRo_IpDj9hnI8Qh8CMZe_C-kGEoGLyMihMOPR9kYoo-GnFVZdcQ2bX-reiJYmLE1FA5eO-tgW6lOX3jblA7Sk9E1jVfJ88b_IGqt0NUXGQiwJk1z1NwY-vYNoCjKpg!!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_AVEQAI930GRPE02BR764FO30G0=CZ6_AVEQAI930GRPE02BR764FO3002=LA0=Ecom.ibm.faces.portlet.VIEWID!QCPjspQCPreasigProcQCPAdminAOCReasigProcPortletAppView.jsp==/#Z7_AVEQAI930GRPE02BR764FO30G0",
+      "rawPayload": {
+        "expediente": "SE 199/26",
+        "contractType": "Servicios",
+        "objeto": "Contratación del Servicio de Diseño, Organización, Ejecución, Seguimiento y Evaluación del Programa de Formación (ÇTalleres; jormadas Empresariales y Webinars) en Desarrollo de la Actuación F.1.1 del Plan Turístico de Grandes Ciudades de Marbella",
+        "estado": "Publicada",
+        "fechaReferencia": null,
+        "importeRaw": "103,305.79",
+        "adjudicatario": null,
+        "fechas": "Present. Oferta:12/06/2026"
+      }
+    },
+    {
+      "sourceType": "licitacion",
+      "expediente": "D SE 140/26",
+      "contractType": "Servicios",
+      "objeto": "Contratación del Servicio de Mensajería y Paquetería Urgente con Ámbito Provincial, Nacional e Internacional del Excmo. Ayuntamiento de Marbella",
+      "estado": "Publicada",
+      "fechaReferencia": null,
+      "importe": 5.95041,
+      "adjudicatario": null,
+      "fechas": "Present. Oferta:09/06/2026",
+      "sourceUrl": "https://contrataciondelestado.es/wps/portal/plataforma/perfil_contratante/lista_perfiles/!ut/p/z1/jY9Bb4JAEIV_Sw9cd0ZQiMetIq4xYYthgb00K6JZ48IGiP37pa3xJmVuM3nfe29AQg6yVnd9Ub1uanUb9kL6n1SEH5QtPYwSHqL7ngT-fBN7iC5kv4KFt5qLneD-gUWIbLtZ79PZAiPXBzmFxxdDcRo_IpDj9hnI8Qh8CMZe_C-kGEoGLyMihMOPR9kYoo-GnFVZdcQ2bX-reiJYmLE1FA5eO-tgW6lOX3jblA7Sk9E1jVfJ88b_IGqt0NUXGQiwJk1z1NwY-vYNoCjKpg!!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_AVEQAI930GRPE02BR764FO30G0=CZ6_AVEQAI930GRPE02BR764FO3002=LA0=Ecom.ibm.faces.portlet.VIEWID!QCPjspQCPreasigProcQCPAdminAOCReasigProcPortletAppView.jsp==/#Z7_AVEQAI930GRPE02BR764FO30G0",
+      "rawPayload": {
+        "expediente": "D SE 140/26",
+        "contractType": "Servicios",
+        "objeto": "Contratación del Servicio de Mensajería y Paquetería Urgente con Ámbito Provincial, Nacional e Internacional del Excmo. Ayuntamiento de Marbella",
+        "estado": "Publicada",
+        "fechaReferencia": null,
+        "importeRaw": "5,950.41",
+        "adjudicatario": null,
+        "fechas": "Present. Oferta:09/06/2026"
+      }
+    },
+    {
+      "sourceType": "licitacion",
+      "expediente": "OB 185/26",
+      "contractType": "Obras",
+      "objeto": "Contratación de la Obra Ejecución de Acerados en calle Incosol tramos numerados de 4 al 8, desde la comunidad Monte Salma en Avenida Ángel de Miguel hasta la comunidad Lomas de Río Real en avenida Alcudia. T.M. Marbella Málaga)",
+      "estado": "Publicada",
+      "fechaReferencia": null,
+      "importe": 650.9876,
+      "adjudicatario": null,
+      "fechas": "Present. Oferta:22/06/2026",
+      "sourceUrl": "https://contrataciondelestado.es/wps/portal/plataforma/perfil_contratante/lista_perfiles/!ut/p/z1/jY9Bb4JAEIV_Sw9cd0ZQiMetIq4xYYthgb00K6JZ48IGiP37pa3xJmVuM3nfe29AQg6yVnd9Ub1uanUb9kL6n1SEH5QtPYwSHqL7ngT-fBN7iC5kv4KFt5qLneD-gUWIbLtZ79PZAiPXBzmFxxdDcRo_IpDj9hnI8Qh8CMZe_C-kGEoGLyMihMOPR9kYoo-GnFVZdcQ2bX-reiJYmLE1FA5eO-tgW6lOX3jblA7Sk9E1jVfJ88b_IGqt0NUXGQiwJk1z1NwY-vYNoCjKpg!!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_AVEQAI930GRPE02BR764FO30G0=CZ6_AVEQAI930GRPE02BR764FO3002=LA0=Ecom.ibm.faces.portlet.VIEWID!QCPjspQCPreasigProcQCPAdminAOCReasigProcPortletAppView.jsp==/#Z7_AVEQAI930GRPE02BR764FO30G0",
+      "rawPayload": {
+        "expediente": "OB 185/26",
+        "contractType": "Obras",
+        "objeto": "Contratación de la Obra Ejecución de Acerados en calle Incosol tramos numerados de 4 al 8, desde la comunidad Monte Salma en Avenida Ángel de Miguel hasta la comunidad Lomas de Río Real en avenida Alcudia. T.M. Marbella Málaga)",
+        "estado": "Publicada",
+        "fechaReferencia": null,
+        "importeRaw": "650,987.60",
+        "adjudicatario": null,
+        "fechas": "Present. Oferta:22/06/2026"
+      }
+    },
+    {
+      "sourceType": "licitacion",
+      "expediente": "CP 160/26",
+      "contractType": "Privado",
+      "objeto": "Contrato Privado del Servicio de Patrocinio Publicitario para la Promoción Turística de la Ciudad de Marbella a Través de Presencia del Logo Marca \"Marbella\" en el evento de Padel de la Marca \"Wordl Padel Soccer\" durante los años 2026-2029",
+      "estado": "Resuelta",
+      "fechaReferencia": null,
+      "importe": 260,
+      "adjudicatario": null,
+      "fechas": "Publicación PLACSP:\nAdjudicación:28/05/2026\nFormalización:29/05/2026",
+      "sourceUrl": "https://contrataciondelestado.es/wps/portal/plataforma/perfil_contratante/lista_perfiles/!ut/p/z1/jY9Bb4JAEIV_Sw9cd0ZQiMetIq4xYYthgb00K6JZ48IGiP37pa3xJmVuM3nfe29AQg6yVnd9Ub1uanUb9kL6n1SEH5QtPYwSHqL7ngT-fBN7iC5kv4KFt5qLneD-gUWIbLtZ79PZAiPXBzmFxxdDcRo_IpDj9hnI8Qh8CMZe_C-kGEoGLyMihMOPR9kYoo-GnFVZdcQ2bX-reiJYmLE1FA5eO-tgW6lOX3jblA7Sk9E1jVfJ88b_IGqt0NUXGQiwJk1z1NwY-vYNoCjKpg!!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_AVEQAI930GRPE02BR764FO30G0=CZ6_AVEQAI930GRPE02BR764FO3002=LA0=Ecom.ibm.faces.portlet.VIEWID!QCPjspQCPreasigProcQCPAdminAOCReasigProcPortletAppView.jsp==/#Z7_AVEQAI930GRPE02BR764FO30G0",
+      "rawPayload": {
+        "expediente": "CP 160/26",
+        "contractType": "Privado",
+        "objeto": "Contrato Privado del Servicio de Patrocinio Publicitario para la Promoción Turística de la Ciudad de Marbella a Través de Presencia del Logo Marca \"Marbella\" en el evento de Padel de la Marca \"Wordl Padel Soccer\" durante los años 2026-2029",
+        "estado": "Resuelta",
+        "fechaReferencia": null,
+        "importeRaw": "260,000.00",
+        "adjudicatario": null,
+        "fechas": "Publicación PLACSP:\nAdjudicación:28/05/2026\nFormalización:29/05/2026"
+      }
+    },
+    {
+      "sourceType": "licitacion",
+      "expediente": "SE 153/26",
+      "contractType": "Servicios",
+      "objeto": "Contratación del Servicio de Recogida, Transporte y Eliminación de los Residuos de Material y Envases de Productos Biocidas de la Delegación de Sanidad Municipal del Excmo. Ayuntamiento de Marbella",
+      "estado": "Publicada",
+      "fechaReferencia": null,
+      "importe": 1.98348,
+      "adjudicatario": null,
+      "fechas": "Present. Oferta:05/06/2026",
+      "sourceUrl": "https://contrataciondelestado.es/wps/portal/plataforma/perfil_contratante/lista_perfiles/!ut/p/z1/jY9Bb4JAEIV_Sw9cd0ZQiMetIq4xYYthgb00K6JZ48IGiP37pa3xJmVuM3nfe29AQg6yVnd9Ub1uanUb9kL6n1SEH5QtPYwSHqL7ngT-fBN7iC5kv4KFt5qLneD-gUWIbLtZ79PZAiPXBzmFxxdDcRo_IpDj9hnI8Qh8CMZe_C-kGEoGLyMihMOPR9kYoo-GnFVZdcQ2bX-reiJYmLE1FA5eO-tgW6lOX3jblA7Sk9E1jVfJ88b_IGqt0NUXGQiwJk1z1NwY-vYNoCjKpg!!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_AVEQAI930GRPE02BR764FO30G0=CZ6_AVEQAI930GRPE02BR764FO3002=LA0=Ecom.ibm.faces.portlet.VIEWID!QCPjspQCPreasigProcQCPAdminAOCReasigProcPortletAppView.jsp==/#Z7_AVEQAI930GRPE02BR764FO30G0",
+      "rawPayload": {
+        "expediente": "SE 153/26",
+        "contractType": "Servicios",
+        "objeto": "Contratación del Servicio de Recogida, Transporte y Eliminación de los Residuos de Material y Envases de Productos Biocidas de la Delegación de Sanidad Municipal del Excmo. Ayuntamiento de Marbella",
+        "estado": "Publicada",
+        "fechaReferencia": null,
+        "importeRaw": "1,983.48",
+        "adjudicatario": null,
+        "fechas": "Present. Oferta:05/06/2026"
+      }
+    },
+    {
+      "sourceType": "licitacion",
+      "expediente": "CP 205/26",
+      "contractType": "Privado",
+      "objeto": "Contrato Privado del Servicio de Patrocinio Publicitario para la Promoción y Consolidación como destino Turístico de la Ciudad de Marbella, mediante la Asociación de la Imagen del Logo Marca \"Marbella\" en la Temporada Taurina 2026 y 2027 en caso de prórroga",
+      "estado": "Resuelta",
+      "fechaReferencia": null,
+      "importe": 86.5,
+      "adjudicatario": null,
+      "fechas": "Publicación PLACSP:\nAdjudicación:28/05/2026\nFormalización:01/06/2026",
+      "sourceUrl": "https://contrataciondelestado.es/wps/portal/plataforma/perfil_contratante/lista_perfiles/!ut/p/z1/jY9Bb4JAEIV_Sw9cd0ZQiMetIq4xYYthgb00K6JZ48IGiP37pa3xJmVuM3nfe29AQg6yVnd9Ub1uanUb9kL6n1SEH5QtPYwSHqL7ngT-fBN7iC5kv4KFt5qLneD-gUWIbLtZ79PZAiPXBzmFxxdDcRo_IpDj9hnI8Qh8CMZe_C-kGEoGLyMihMOPR9kYoo-GnFVZdcQ2bX-reiJYmLE1FA5eO-tgW6lOX3jblA7Sk9E1jVfJ88b_IGqt0NUXGQiwJk1z1NwY-vYNoCjKpg!!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_AVEQAI930GRPE02BR764FO30G0=CZ6_AVEQAI930GRPE02BR764FO3002=LA0=Ecom.ibm.faces.portlet.VIEWID!QCPjspQCPreasigProcQCPAdminAOCReasigProcPortletAppView.jsp==/#Z7_AVEQAI930GRPE02BR764FO30G0",
+      "rawPayload": {
+        "expediente": "CP 205/26",
+        "contractType": "Privado",
+        "objeto": "Contrato Privado del Servicio de Patrocinio Publicitario para la Promoción y Consolidación como destino Turístico de la Ciudad de Marbella, mediante la Asociación de la Imagen del Logo Marca \"Marbella\" en la Temporada Taurina 2026 y 2027 en caso de prórroga",
+        "estado": "Resuelta",
+        "fechaReferencia": null,
+        "importeRaw": "86,500.00",
+        "adjudicatario": null,
+        "fechas": "Publicación PLACSP:\nAdjudicación:28/05/2026\nFormalización:01/06/2026"
+      }
+    },
+    {
+      "sourceType": "licitacion",
+      "expediente": "SE 139/26",
+      "contractType": "Servicios",
+      "objeto": "Contratación del Servicio por cuenta abierta de Control Sanitario (Muestreo y Análisis) de la Calidad del AGua en Piscinas e Instalaciones Acuáticas Municipales",
+      "estado": "Publicada",
+      "fechaReferencia": null,
+      "importe": 2.31404,
+      "adjudicatario": null,
+      "fechas": "Present. Oferta:04/06/2026",
+      "sourceUrl": "https://contrataciondelestado.es/wps/portal/plataforma/perfil_contratante/lista_perfiles/!ut/p/z1/jY9Bb4JAEIV_Sw9cd0ZQiMetIq4xYYthgb00K6JZ48IGiP37pa3xJmVuM3nfe29AQg6yVnd9Ub1uanUb9kL6n1SEH5QtPYwSHqL7ngT-fBN7iC5kv4KFt5qLneD-gUWIbLtZ79PZAiPXBzmFxxdDcRo_IpDj9hnI8Qh8CMZe_C-kGEoGLyMihMOPR9kYoo-GnFVZdcQ2bX-reiJYmLE1FA5eO-tgW6lOX3jblA7Sk9E1jVfJ88b_IGqt0NUXGQiwJk1z1NwY-vYNoCjKpg!!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_AVEQAI930GRPE02BR764FO30G0=CZ6_AVEQAI930GRPE02BR764FO3002=LA0=Ecom.ibm.faces.portlet.VIEWID!QCPjspQCPreasigProcQCPAdminAOCReasigProcPortletAppView.jsp==/#Z7_AVEQAI930GRPE02BR764FO30G0",
+      "rawPayload": {
+        "expediente": "SE 139/26",
+        "contractType": "Servicios",
+        "objeto": "Contratación del Servicio por cuenta abierta de Control Sanitario (Muestreo y Análisis) de la Calidad del AGua en Piscinas e Instalaciones Acuáticas Municipales",
+        "estado": "Publicada",
+        "fechaReferencia": null,
+        "importeRaw": "2,314.04",
+        "adjudicatario": null,
+        "fechas": "Present. Oferta:04/06/2026"
+      }
+    },
+    {
+      "sourceType": "licitacion",
+      "expediente": "OB 121/26",
+      "contractType": "Obras",
+      "objeto": "Contratación de la Obra correspondiente al Proyecto de Regeneración Urbana de San Pedro Alcántara. Remodelación y Mejora de Infraestructuras en la calle de Los Romeros. T.M. Marbella (Málaga)",
+      "estado": "Publicada",
+      "fechaReferencia": null,
+      "importe": 612.74246,
+      "adjudicatario": null,
+      "fechas": "Present. Oferta:15/06/2026",
+      "sourceUrl": "https://contrataciondelestado.es/wps/portal/plataforma/perfil_contratante/lista_perfiles/!ut/p/z1/jY9Bb4JAEIV_Sw9cd0ZQiMetIq4xYYthgb00K6JZ48IGiP37pa3xJmVuM3nfe29AQg6yVnd9Ub1uanUb9kL6n1SEH5QtPYwSHqL7ngT-fBN7iC5kv4KFt5qLneD-gUWIbLtZ79PZAiPXBzmFxxdDcRo_IpDj9hnI8Qh8CMZe_C-kGEoGLyMihMOPR9kYoo-GnFVZdcQ2bX-reiJYmLE1FA5eO-tgW6lOX3jblA7Sk9E1jVfJ88b_IGqt0NUXGQiwJk1z1NwY-vYNoCjKpg!!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_AVEQAI930GRPE02BR764FO30G0=CZ6_AVEQAI930GRPE02BR764FO3002=LA0=Ecom.ibm.faces.portlet.VIEWID!QCPjspQCPreasigProcQCPAdminAOCReasigProcPortletAppView.jsp==/#Z7_AVEQAI930GRPE02BR764FO30G0",
+      "rawPayload": {
+        "expediente": "OB 121/26",
+        "contractType": "Obras",
+        "objeto": "Contratación de la Obra correspondiente al Proyecto de Regeneración Urbana de San Pedro Alcántara. Remodelación y Mejora de Infraestructuras en la calle de Los Romeros. T.M. Marbella (Málaga)",
+        "estado": "Publicada",
+        "fechaReferencia": null,
+        "importeRaw": "612,742.46",
+        "adjudicatario": null,
+        "fechas": "Present. Oferta:15/06/2026"
+      }
+    },
+    {
+      "sourceType": "licitacion",
+      "expediente": "SU 163/26",
+      "contractType": "Suministros",
+      "objeto": "Contratación del Suministro por cuenta abierta de Material de Ferretería y Pintura para los Servicios Operativos de la Delegación Municipal de Fiestas del Exmo. Ayuntamiento de Marbella",
+      "estado": "Publicada",
+      "fechaReferencia": null,
+      "importe": 21,
+      "adjudicatario": null,
+      "fechas": "Present. Oferta:03/06/2026",
+      "sourceUrl": "https://contrataciondelestado.es/wps/portal/plataforma/perfil_contratante/lista_perfiles/!ut/p/z1/jY9Bb4JAEIV_Sw9cd0ZQiMetIq4xYYthgb00K6JZ48IGiP37pa3xJmVuM3nfe29AQg6yVnd9Ub1uanUb9kL6n1SEH5QtPYwSHqL7ngT-fBN7iC5kv4KFt5qLneD-gUWIbLtZ79PZAiPXBzmFxxdDcRo_IpDj9hnI8Qh8CMZe_C-kGEoGLyMihMOPR9kYoo-GnFVZdcQ2bX-reiJYmLE1FA5eO-tgW6lOX3jblA7Sk9E1jVfJ88b_IGqt0NUXGQiwJk1z1NwY-vYNoCjKpg!!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_AVEQAI930GRPE02BR764FO30G0=CZ6_AVEQAI930GRPE02BR764FO3002=LA0=Ecom.ibm.faces.portlet.VIEWID!QCPjspQCPreasigProcQCPAdminAOCReasigProcPortletAppView.jsp==/#Z7_AVEQAI930GRPE02BR764FO30G0",
+      "rawPayload": {
+        "expediente": "SU 163/26",
+        "contractType": "Suministros",
+        "objeto": "Contratación del Suministro por cuenta abierta de Material de Ferretería y Pintura para los Servicios Operativos de la Delegación Municipal de Fiestas del Exmo. Ayuntamiento de Marbella",
+        "estado": "Publicada",
+        "fechaReferencia": null,
+        "importeRaw": "21,000.00",
+        "adjudicatario": null,
+        "fechas": "Present. Oferta:03/06/2026"
+      }
+    }
+  ]
+}

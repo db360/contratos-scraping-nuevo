@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "sourceType": "contrato_menor",
+    "elapsedMs": 7427,
+    "count": 1
+  },
+  "sample": [
+    {
+      "sourceType": "contrato_menor",
+      "expediente": "49963/2026",
+      "contractType": "Servicios",
+      "objeto": "MSE 217/26 Contratación de Servicio consistente en representación de la obra teatral \" La Tormenta\" de la compañía Zero en Conducta",
+      "estado": "Resuelta",
+      "fechaReferencia": "28/04/2026",
+      "importe": 3.4,
+      "adjudicatario": "Zero en conducta Producciones, S.L.",
+      "fechas": null,
+      "sourceUrl": "https://contrataciondelestado.es/wps/portal/plataforma/perfil_contratante/lista_perfiles/!ut/p/z1/jY_JDoIwEIafxQPXzsgaj8hmjYmoYevFVFJMTQsEic8vGq-ic5vM9y8DDEpgLX_IKx9l13I17RVzz34eHXy6sjA5phGa66Pn2vHeQjSheAOOFdj5Nk_dE00Q6SYOd9nSwcR0gf2jxy_j43_6GYDN2xfA5iPwA8y9-Cukmkp6XyMShNPLo-40kRdNGl6LO-m7YVRiJDmNChpCZeDt3huY7aNUDI1UQaf7UIxcKUGmC_Q6y0qUqdb-4gnU3rTA/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_AVEQAI930GRPE02BR764FO30G0=CZ6_AVEQAI930GRPE02BR764FO3002=LA0=Ecom.ibm.faces.portlet.VIEWID!QCPjspQCPUOEPerfilCompDetalle.jsp==/#Z7_AVEQAI930GRPE02BR764FO30G0",
+      "rawPayload": {
+        "expediente": "49963/2026",
+        "contractType": "Servicios",
+        "objeto": "MSE 217/26 Contratación de Servicio consistente en representación de la obra teatral \" La Tormenta\" de la compañía Zero en Conducta",
+        "estado": "Resuelta",
+        "fechaReferencia": "28/04/2026",
+        "importeRaw": "3,400.00",
+        "adjudicatario": "Zero en conducta Producciones, S.L.",
+        "fechas": null
+      }
+    }
+  ]
+}

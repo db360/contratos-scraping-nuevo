@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contratos Publicos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" src="/src/main.ts"></script>
+  </head>
+  <body>
+    <div class="grain"></div>
+    <main class="app">
+      <header class="hero">
+        <p class="tag">Observatorio de contratacion</p>
+        <h1>Contratos y licitaciones en tiempo real</h1>
+        <p>
+          Backend con scraping programado + API + almacenamiento historico para
+          evitar perdida de datos publicos.
+        </p>
+      </header>
+
+      <section class="toolbar">
+        <label>
+          Tipo
+          <select id="sourceType">
+            <option value="">Todos</option>
+            <option value="contrato_menor">Contratos menores</option>
+            <option value="licitacion">Licitaciones</option>
+          </select>
+        </label>
+
+        <button id="importBtn">Importar historicos</button>
+        <button id="scrapeBtn">Ejecutar scraping</button>
+        <button id="reloadBtn">Actualizar</button>
+      </section>
+
+      <section id="stats" class="stats"></section>
+      <section id="results" class="results"></section>
+    </main>
+  </body>
+</html>

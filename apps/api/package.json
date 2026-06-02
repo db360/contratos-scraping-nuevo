@@ -1,0 +1,31 @@
+{
+  "name": "contratos-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "scrape:standalone": "node dist/scripts/runScraperStandalone.js",
+    "scrape:standalone:dev": "npm run build && node dist/scripts/runScraperStandalone.js",
+    "import:historical": "node dist/scripts/importHistorical.js",
+    "import:historical:dev": "tsx src/scripts/importHistorical.ts"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0",
+    "node-cron": "^3.0.3",
+    "puppeteer": "^22.15.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.7.4",
+    "@types/node-cron": "^3.0.11",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  }
+}

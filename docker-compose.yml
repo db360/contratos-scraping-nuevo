@@ -1,0 +1,59 @@
+services:
+  db:
+    image: mysql:8.4
+    container_name: contratos-db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: contratos_publicos
+      MYSQL_USER: app
+      MYSQL_PASSWORD: app
+    ports:
+      - "3307:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./apps/api/sql/init.sql:/docker-entrypoint-initdb.d/01-init.sql:ro
+
+  api:
+    build:
+      context: ./apps/api
+      dockerfile: Dockerfile
+    container_name: contratos-api
+    restart: unless-stopped
+    depends_on:
+      - db
+    environment:
+      PORT: 4000
+      CORS_ORIGIN: http://localhost:8080
+      DB_HOST: db
+      DB_PORT: 3306
+      DB_USER: app
+      DB_PASSWORD: app
+      DB_NAME: contratos_publicos
+      SCRAPER_PROFILE_NAME: Junta de Gobierno del Ayuntamiento de Marbella
+      SCRAPER_HEADLESS: "shell"
+      SCRAPER_USER_DATA_DIR: /app/tmp
+      SCRAPER_COOKIES_PATH: /app/cookies.json
+      SCRAPER_CRON: "0 */6 * * *"
+      SCRAPER_AUTORUN: "true"
+      HISTORICAL_DATA_DIR: /data/nuevos_datos
+    ports:
+      - "4000:4000"
+    volumes:
+      - api_tmp:/app/tmp
+      - ./nuevos_datos:/data/nuevos_datos:ro
+
+  web:
+    build:
+      context: ./apps/web
+      dockerfile: Dockerfile
+    container_name: contratos-web
+    restart: unless-stopped
+    depends_on:
+      - api
+    ports:
+      - "8080:80"
+
+volumes:
+  db_data:
+  api_tmp:

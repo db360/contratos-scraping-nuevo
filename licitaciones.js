@@ -92,6 +92,9 @@ const fs = require("fs/promises");
 
   console.log("PROCESO TERMINADO");
   console.log(`Datos guardados en ${fileName}`);
+
+  fs.readFile
+
   await browser.close();
 
 })();

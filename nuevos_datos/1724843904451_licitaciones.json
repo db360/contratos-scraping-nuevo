@@ -1,9 +1,89 @@
 [
   {
+    "expediente": "D ENA 05/24",
+    "tipo": "Patrimonial",
+    "objeto": "Enajenación; Mediante Procedimiento Abierto; Subasta Pública; de Tres Plazas de Aparcamiento de Titularidad Municipal situadas en el Edificio B del Conjuto Residencial Las Terrazas de Las Lomas del Marbella Club",
+    "estado": "Publicada",
+    "importe": 37110,
+    "fechas": "Present.Oferta:26/09/2024"
+  },
+  {
+    "expediente": "SE 270/24",
+    "tipo": "Servicios",
+    "objeto": "Contratación del Servicio de Organización; Gestión y Realización de Talleres y Cursos de Formación para el Desarrollo del Programa \"Escuela Municipal de Asociaciones\" para Entidades de Participación Ciudadana",
+    "estado": "Publicada",
+    "importe": 15279.95,
+    "fechas": "Present.Oferta:09/09/2024"
+  },
+  {
+    "expediente": "SU 249/24",
+    "tipo": "Suministros",
+    "objeto": "Contratación del Suministro por cuenta abierta de Mobiliario para las Playas de Marbella y San Pedro Alcántara con cargo al Plan Turistico de Grandes Ciudades",
+    "estado": "Publicada",
+    "importe": 826446.28,
+    "fechas": "Present.Oferta:24/09/2024"
+  },
+  {
+    "expediente": "SU 180/24",
+    "tipo": "Suministros",
+    "objeto": "Contratación del Suministro de 2 vehículos nuevos para la Flota de Transporte Colectivo del Ayuntamiento de Marbella",
+    "estado": "Publicada",
+    "importe": 82644.63,
+    "fechas": "Present.Oferta:09/09/2024"
+  },
+  {
+    "expediente": "SE 247/24",
+    "tipo": "Servicios",
+    "objeto": "Contratación del Servicio de Vigilancia de la Salud del Colectivo de Trabajadores del Excmo. Ayuntamiento de Marbella",
+    "estado": "Publicada",
+    "importe": 174800,
+    "fechas": "Present.Oferta:20/09/2024"
+  },
+  {
+    "expediente": "OB 217/24",
+    "tipo": "Obras",
+    "objeto": "Renaturalización y Mitigación del Riesgo de inundación en el entorno urbano del Río Guadaiza; T.M. Marbella; cuenta con el apoyo de la Fundación Biodiversidad del Ministerio para la Transición Ecológica y el Reta Demográfico (Miteco) en el Marco del Plan de Recuperación; Transformación y Resilencia (PRTR) financiado por la Unío Europea-Nextgenerationeu",
+    "estado": "Publicada",
+    "importe": 2400000.04,
+    "fechas": "Present.Oferta:17/09/2024"
+  },
+  {
+    "expediente": "SU 05/25",
+    "tipo": "Suministros",
+    "objeto": "Contratación del Suministro en Régimen de Arrendmiento; de Stands y Elementos Auxiliares; incluyendo el Transporte; Montaje; Desmontaje y Solución de Posibles Incidencias para la Feria del Libro de Marbella 2025 y 2026",
+    "estado": "Publicada",
+    "importe": 12600,
+    "fechas": "Present.Oferta:04/09/2024"
+  },
+  {
+    "expediente": "SE 238/24",
+    "tipo": "Servicios",
+    "objeto": "Contratación del Servicio de Transporte discrecional de Pasajeros en Autocar con Conductor durante la Feria de San Pedro Alcántara 2024",
+    "estado": "Publicada",
+    "importe": 14876.03,
+    "fechas": "Present.Oferta:05/09/2024"
+  },
+  {
+    "expediente": "SE 289/24",
+    "tipo": "Servicios",
+    "objeto": "Contratación del Servicio de Organización; Gestión y Realización de Actividades del Programa \"Otoño Joven 2024\"",
+    "estado": "Publicada",
+    "importe": 15471.16,
+    "fechas": "Present.Oferta:04/09/2024"
+  },
+  {
+    "expediente": "SE 261/24",
+    "tipo": "Servicios",
+    "objeto": "Servicio de direccion de obra del proyecto de Renaturalizacion y mitigacion del riesgo de inundación en el entorno urbano del rio Guadaiza. T.M. de Marbella; Malaga; cuenta con el apoyo de la fundacion biodiversidad del ministerio para la transicion ecologica y el reto demografico; Miteco; en el marco del plan de recuperacion; transformación y resiliencia; prtr; financiado por la Union Europea",
+    "estado": "Publicada",
+    "importe": 60504.2,
+    "fechas": "Present.Oferta:05/09/2024"
+  },
+  {
     "expediente": "SE 234/24",
     "tipo": "Servicios",
     "objeto": "Servicio de asistencia técnica y consultoría; auditoría interna y auditoría externa para el mantenimiento y renovación del certificado UNE-EN ISO 9001:2015 implantado en el Área de Formación de la Delegación de Empleo del Ayuntamiento de Marbella.",
-    "estado": "Publicada",
+    "estado": "Evaluación",
     "importe": 9500,
     "fechas": "Present.Oferta:27/08/2024"
   },
@@ -11,7 +91,7 @@
     "expediente": "CP 04/25",
     "tipo": "Privado",
     "objeto": "Contratación de varias pólizas de seguros del Excmo. Ayuntamiento de Marbella durante el ejercicio económico del año 2025; 2026 y 2027",
-    "estado": "Publicada",
+    "estado": "Evaluación",
     "importe": 12000,
     "fechas": "Present.Oferta:22/08/2024"
   },
@@ -19,7 +99,7 @@
     "expediente": "SE 214/24",
     "tipo": "Servicios",
     "objeto": "Contratación del Servicio por cuenta abierta de Control y Gestión de la Población de jabalíes y Cerdos Asilvestrados en el Municipio de Marbella.",
-    "estado": "Publicada",
+    "estado": "Evaluación",
     "importe": 52000,
     "fechas": "Present.Oferta:20/08/2024"
   },
@@ -131,9 +211,9 @@
     "expediente": "CP 231/24",
     "tipo": "Servicios",
     "objeto": "Contratación del Servicio de Organización; Gestión y Producción de las Actuaciones Artísticas que constituyen el Festival-Jazz Funk 2024- en San Pedro Alcántara",
-    "estado": "Adjudicada",
+    "estado": "Resuelta",
     "importe": 9946,
-    "fechas": "PublicaciónPLACSP:Adjudicación:14/08/2024"
+    "fechas": "PublicaciónPLACSP:Adjudicación:14/08/2024Formalización:23/08/2024"
   },
   {
     "expediente": "CP 216/24",
@@ -155,17 +235,17 @@
     "expediente": "CP 212/24",
     "tipo": "Privado",
     "objeto": "Contrato Privafo del Servicio de Organización; Gestión y Producción de las Actuaciones Artísticas del Festival Marbepop 2024",
-    "estado": "Adjudicada",
+    "estado": "Resuelta",
     "importe": 38807.45,
-    "fechas": "PublicaciónPLACSP:Adjudicación:14/08/2024"
+    "fechas": "PublicaciónPLACSP:Adjudicación:14/08/2024Formalización:22/08/2024"
   },
   {
     "expediente": "SU 200/24",
     "tipo": "Suministros",
     "objeto": "Contratación del Suministro por cuenta abierta; en Régimen de Arrendamiento; Transportes y Entrega de Backline para las Actividades Programadas por la Delegación de Cultura y Patrimonio del Distrito de San Pedro Alcántara",
-    "estado": "Evaluación",
+    "estado": "Resuelta",
     "importe": 12000,
-    "fechas": "Present.Oferta:22/07/2024"
+    "fechas": "PublicaciónPLACSP:Adjudicación:22/08/2024Formalización:26/08/2024"
   },
   {
     "expediente": "CP 194/24",
@@ -187,9 +267,9 @@
     "expediente": "ENA 05/24",
     "tipo": "Patrimonial",
     "objeto": "Enajenación; Mediante Procedimiento Abierto; Subasta Pública; de Tres Plazas de Aparcamiento de Titularidad Municipal situadas en el Edificio B del Conjuto Residencial Las Terrazas de Las Lomas del Marbella Club",
-    "estado": "Evaluación",
+    "estado": "Resuelta",
     "importe": 37110,
-    "fechas": "Present.Oferta:05/08/2024"
+    "fechas": "PublicaciónPLACSP:Adjudicación:26/08/2024"
   },
   {
     "expediente": "SU 201/24",
@@ -259,9 +339,9 @@
     "expediente": "D SE 128/24",
     "tipo": "Servicios",
     "objeto": "Contratación del Servicio por cuenta abierta de Restauración para la Agrupación de Voluntarios de Protección Civil de Marbella; durante loa años 2024 y 2025",
-    "estado": "Evaluación",
+    "estado": "Resuelta",
     "importe": 16363.64,
-    "fechas": "Present.Oferta:01/07/2024"
+    "fechas": "PublicaciónPLACSP:Adjudicación:22/08/2024"
   },
   {
     "expediente": "SU 224/24",
@@ -299,9 +379,9 @@
     "expediente": "SE 190/24",
     "tipo": "Servicios",
     "objeto": "Contratación del Servicio por cuenta abierta de Catering para los Actos Programados por la Delegación de Juventud",
-    "estado": "Evaluación",
+    "estado": "Adjudicada",
     "importe": 5454.55,
-    "fechas": "Present.Oferta:12/06/2024"
+    "fechas": "PublicaciónPLACSP:Adjudicación:26/08/2024"
   },
   {
     "expediente": "D SU 111/24",
@@ -379,9 +459,9 @@
     "expediente": "SE 145/24",
     "tipo": "Servicios",
     "objeto": "Servicio de agencia de comunicación para la planificación; mediación; compra; inserción de espacio publicitarios en medios de difusión online y offline; asesoramiento; apoyo tecnico y seguimiento de la publicidad y campañas de proporción del plan de dinamización comercial de Marbella y el desarrollo de material publicitario para el Excmo. Ayuntamiento de Marbella.",
-    "estado": "Evaluación",
+    "estado": "Resuelta",
     "importe": 37423,
-    "fechas": "Present.Oferta:03/06/2024"
+    "fechas": "PublicaciónPLACSP:Adjudicación:26/08/2024Formalización:28/08/2024"
   },
   {
     "expediente": "ENA 04/24",
@@ -491,9 +571,9 @@
     "expediente": "D SU 80/24",
     "tipo": "Suministros",
     "objeto": "Suministro consistente en el alquiler de dos maquinas de lavapiezas para los talleres del Servicio de RSU y Servicio de Limpieza del Excmo: Ayuntamiento de Marbella.",
-    "estado": "Adjudicada",
+    "estado": "Resuelta",
     "importe": 8400,
-    "fechas": "PublicaciónPLACSP:Adjudicación:07/08/2024"
+    "fechas": "PublicaciónPLACSP:Adjudicación:07/08/2024Formalización:21/08/2024"
   },
   {
     "expediente": "CP 184/24",
@@ -611,9 +691,9 @@
     "expediente": "SU 168/24",
     "tipo": "Suministros",
     "objeto": "Contratación del Suministro por cuenta abierta de Material diverso de Carpintería para los Servicios Operativos de Nueva Andalucía; Marbella y Las Chapas durante los años 2024; 2025; 2026 y 2027",
-    "estado": "Adjudicada",
+    "estado": "Resuelta",
     "importe": 99176.4,
-    "fechas": "PublicaciónPLACSP:Adjudicación:13/08/2024"
+    "fechas": "PublicaciónPLACSP:Adjudicación:13/08/2024Formalización:23/08/2024"
   },
   {
     "expediente": "SE 128/24",
@@ -635,9 +715,9 @@
     "expediente": "SU 158/24",
     "tipo": "Suministros",
     "objeto": "Contratación del Suministro de Material de Ferreteria y Herramientas de Jardineria para Marbella; Nueva Andalucia y Las Chapas",
-    "estado": "Adjudicada",
+    "estado": "Resuelta",
     "importe": 24793,
-    "fechas": "PublicaciónPLACSP:Adjudicación:26/07/2024"
+    "fechas": "PublicaciónPLACSP:Adjudicación:26/07/2024Formalización:28/08/2024"
   },
   {
     "expediente": "OB 159/24",
@@ -739,9 +819,9 @@
     "expediente": "SE 135/24",
     "tipo": "Servicios",
     "objeto": "Servicio de catering para Actos y Eventos Deportivos organizados por la Delegación Municipal de Deportes del Excmo. Ayuntamiento de Marbella.",
-    "estado": "Adjudicada",
+    "estado": "Resuelta",
     "importe": 25454.54,
-    "fechas": "PublicaciónPLACSP:Adjudicación:15/07/2024"
+    "fechas": "PublicaciónPLACSP:Adjudicación:15/07/2024Formalización:26/08/2024"
   },
   {
     "expediente": "D SE 67/24",
@@ -749,7 +829,7 @@
     "objeto": "Contratación del Servicio de Organización de Eventos Deportivos dependientes del Distrito de San Pedro Alcántara",
     "estado": "Parcialmente Resuelta",
     "importe": 57742.72,
-    "fechas": "PublicaciónPLACSP:Adjudicación:12/07/2024Formalización:13/08/2024"
+    "fechas": "PublicaciónPLACSP:Adjudicación:12/07/2024Formalización:27/08/2024"
   },
   {
     "expediente": "D SU 87/24",

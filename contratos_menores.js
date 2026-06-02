@@ -21,7 +21,7 @@ const fs = require("fs/promises");
 
   const newInputValue = "Junta de Gobierno del Ayuntamiento de Marbella";
   await page.evaluate(
-    (val) => (document.querySelector(".width28punto6em").value = val),
+    (val) => (document.querySelector(".viewns_Z7_AVEQAI930GRPE02BR764FO30G0_:listaperfiles:texoorgano").value = val),
     newInputValue
   );
   await page.evaluate(() => {

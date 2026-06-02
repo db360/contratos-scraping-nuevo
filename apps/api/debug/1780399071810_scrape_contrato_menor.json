@@ -1,0 +1,229 @@
+{
+  "meta": {
+    "sourceType": "contrato_menor",
+    "elapsedMs": 61137,
+    "count": 171
+  },
+  "sample": [
+    {
+      "sourceType": "contrato_menor",
+      "expediente": "27633/2026",
+      "contractType": "Servicios",
+      "objeto": "MSE 130/26 Contratación de Servicio consistente en representación teatral \"\"No estoy de frente\" de Mari Paz Sayago",
+      "estado": "Resuelta",
+      "fechaReferencia": "16/03/2026",
+      "importe": 3,
+      "adjudicatario": "16 ESCALONES PRODUCCIONES, S.L.",
+      "fechas": null,
+      "sourceUrl": "https://contrataciondelestado.es/wps/portal/plataforma/perfil_contratante/lista_perfiles/!ut/p/z1/jY9LT8MwEIR_C4dc7SVpU3E0aRqMQDWp4jS-IBNMZVQ_ZFvw9wkPcWvave1q5ptZLPAeCys_9EEm7aw8TvsgymfC6ydCbwpoWlZDftuuysVmWwDkuP8RLItqwe85K3e0AaB3m_VDd72EJi-xuMQPJ4bAZf4ZgZjH91jMR8CfYO7FcyHDVHJ1MqIBvPtmjM4g_WLQmxxVRN6FdFQJcVr3dI2HDN6jzyAoGfWBBTdmQF6NtmRbtf-3ytkUZHLxUVkXVGS_EOI91-oTTQTsTdftQTNjyNUX5Sj1DQ!!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_AVEQAI930GRPE02BR764FO30G0=CZ6_AVEQAI930GRPE02BR764FO3002=LA0=Ecom.ibm.faces.portlet.VIEWID!QCPjspQCPreasigProcQCPAdminAOCReasigProcContratosMenoresPortletAppView.jsp==/#Z7_AVEQAI930GRPE02BR764FO30G0",
+      "rawPayload": {
+        "expediente": "27633/2026",
+        "contractType": "Servicios",
+        "objeto": "MSE 130/26 Contratación de Servicio consistente en representación teatral \"\"No estoy de frente\" de Mari Paz Sayago",
+        "estado": "Resuelta",
+        "fechaReferencia": "16/03/2026",
+        "importeRaw": "3,000.00",
+        "adjudicatario": "16 ESCALONES PRODUCCIONES, S.L.",
+        "fechas": null
+      }
+    },
+    {
+      "sourceType": "contrato_menor",
+      "expediente": "22388/2026",
+      "contractType": "Servicios",
+      "objeto": "MSE 114/26 Contratación de Servicio consistente en impartición de diversas acciones formativas no regladas",
+      "estado": "Resuelta",
+      "fechaReferencia": "06/03/2026",
+      "importe": 14.35377,
+      "adjudicatario": "A & R CONSULTING IEE SL",
+      "fechas": null,
+      "sourceUrl": "https://contrataciondelestado.es/wps/portal/plataforma/perfil_contratante/lista_perfiles/!ut/p/z1/jY9LT8MwEIR_C4dc7SVpU3E0aRqMQDWp4jS-IBNMZVQ_ZFvw9wkPcWvave1q5ptZLPAeCys_9EEm7aw8TvsgymfC6ydCbwpoWlZDftuuysVmWwDkuP8RLItqwe85K3e0AaB3m_VDd72EJi-xuMQPJ4bAZf4ZgZjH91jMR8CfYO7FcyHDVHJ1MqIBvPtmjM4g_WLQmxxVRN6FdFQJcVr3dI2HDN6jzyAoGfWBBTdmQF6NtmRbtf-3ytkUZHLxUVkXVGS_EOI91-oTTQTsTdftQTNjyNUX5Sj1DQ!!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_AVEQAI930GRPE02BR764FO30G0=CZ6_AVEQAI930GRPE02BR764FO3002=LA0=Ecom.ibm.faces.portlet.VIEWID!QCPjspQCPreasigProcQCPAdminAOCReasigProcContratosMenoresPortletAppView.jsp==/#Z7_AVEQAI930GRPE02BR764FO30G0",
+      "rawPayload": {
+        "expediente": "22388/2026",
+        "contractType": "Servicios",
+        "objeto": "MSE 114/26 Contratación de Servicio consistente en impartición de diversas acciones formativas no regladas",
+        "estado": "Resuelta",
+        "fechaReferencia": "06/03/2026",
+        "importeRaw": "14,353.77",
+        "adjudicatario": "A & R CONSULTING IEE SL",
+        "fechas": null
+      }
+    },
+    {
+      "sourceType": "contrato_menor",
+      "expediente": "51936/2026",
+      "contractType": "Suministros",
+      "objeto": "MSU 215/26 Contratación del Suministro en Régimen de Alquiler de díez peliculas para su proyección por el Área de Cine Especial Cinéfilos-Cineclub Bueñuel",
+      "estado": "Resuelta",
+      "fechaReferencia": "30/04/2026",
+      "importe": 5.10167,
+      "adjudicatario": "A CONTRACORRIENTE FILMS S.L., AMADEUS COURIER, S.L.U., AVALON DISTRIBUCION AUDIOVISUAL, S.L., BTEAM PICTURES S.L., CARAMEL FILMS S.L.U., ELASTICA FILMS S.L., KARMA FILMS, S.L., LAZONA PICTURES, S.L.",
+      "fechas": null,
+      "sourceUrl": "https://contrataciondelestado.es/wps/portal/plataforma/perfil_contratante/lista_perfiles/!ut/p/z1/jY9LT8MwEIR_C4dc7SVpU3E0aRqMQDWp4jS-IBNMZVQ_ZFvw9wkPcWvave1q5ptZLPAeCys_9EEm7aw8TvsgymfC6ydCbwpoWlZDftuuysVmWwDkuP8RLItqwe85K3e0AaB3m_VDd72EJi-xuMQPJ4bAZf4ZgZjH91jMR8CfYO7FcyHDVHJ1MqIBvPtmjM4g_WLQmxxVRN6FdFQJcVr3dI2HDN6jzyAoGfWBBTdmQF6NtmRbtf-3ytkUZHLxUVkXVGS_EOI91-oTTQTsTdftQTNjyNUX5Sj1DQ!!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_AVEQAI930GRPE02BR764FO30G0=CZ6_AVEQAI930GRPE02BR764FO3002=LA0=Ecom.ibm.faces.portlet.VIEWID!QCPjspQCPreasigProcQCPAdminAOCReasigProcContratosMenoresPortletAppView.jsp==/#Z7_AVEQAI930GRPE02BR764FO30G0",
+      "rawPayload": {
+        "expediente": "51936/2026",
+        "contractType": "Suministros",
+        "objeto": "MSU 215/26 Contratación del Suministro en Régimen de Alquiler de díez peliculas para su proyección por el Área de Cine Especial Cinéfilos-Cineclub Bueñuel",
+        "estado": "Resuelta",
+        "fechaReferencia": "30/04/2026",
+        "importeRaw": "5,101.67",
+        "adjudicatario": "A CONTRACORRIENTE FILMS S.L., AMADEUS COURIER, S.L.U., AVALON DISTRIBUCION AUDIOVISUAL, S.L., BTEAM PICTURES S.L., CARAMEL FILMS S.L.U., ELASTICA FILMS S.L., KARMA FILMS, S.L., LAZONA PICTURES, S.L.",
+        "fechas": null
+      }
+    },
+    {
+      "sourceType": "contrato_menor",
+      "expediente": "29353/2026",
+      "contractType": "Servicios",
+      "objeto": "MSE 149/26 Contratación de Servicio consistente en dirección de obra circunscrita a la obra denominada espacio cultural y polivalente para entidades ciudadanas vinculadas con el transporte Polideportivo Paco Cantos, T. M. Marbella.",
+      "estado": "Resuelta",
+      "fechaReferencia": "17/03/2026",
+      "importe": 2.20713,
+      "adjudicatario": "ALBERTO GALLEGO GARCIA",
+      "fechas": null,
+      "sourceUrl": "https://contrataciondelestado.es/wps/portal/plataforma/perfil_contratante/lista_perfiles/!ut/p/z1/jY9LT8MwEIR_C4dc7SVpU3E0aRqMQDWp4jS-IBNMZVQ_ZFvw9wkPcWvave1q5ptZLPAeCys_9EEm7aw8TvsgymfC6ydCbwpoWlZDftuuysVmWwDkuP8RLItqwe85K3e0AaB3m_VDd72EJi-xuMQPJ4bAZf4ZgZjH91jMR8CfYO7FcyHDVHJ1MqIBvPtmjM4g_WLQmxxVRN6FdFQJcVr3dI2HDN6jzyAoGfWBBTdmQF6NtmRbtf-3ytkUZHLxUVkXVGS_EOI91-oTTQTsTdftQTNjyNUX5Sj1DQ!!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_AVEQAI930GRPE02BR764FO30G0=CZ6_AVEQAI930GRPE02BR764FO3002=LA0=Ecom.ibm.faces.portlet.VIEWID!QCPjspQCPreasigProcQCPAdminAOCReasigProcContratosMenoresPortletAppView.jsp==/#Z7_AVEQAI930GRPE02BR764FO30G0",
+      "rawPayload": {
+        "expediente": "29353/2026",
+        "contractType": "Servicios",
+        "objeto": "MSE 149/26 Contratación de Servicio consistente en dirección de obra circunscrita a la obra denominada espacio cultural y polivalente para entidades ciudadanas vinculadas con el transporte Polideportivo Paco Cantos, T. M. Marbella.",
+        "estado": "Resuelta",
+        "fechaReferencia": "17/03/2026",
+        "importeRaw": "2,207.13",
+        "adjudicatario": "ALBERTO GALLEGO GARCIA",
+        "fechas": null
+      }
+    },
+    {
+      "sourceType": "contrato_menor",
+      "expediente": "44191/2026",
+      "contractType": "Servicios",
+      "objeto": "MSE 42/26 Contratación de Servicio consistente en Dirección de Obra circunscrita a la obra \"Actuaciones varias de mejora del CEIP Nuestra Señora del Carmen\", T. M. Marbella",
+      "estado": "Resuelta",
+      "fechaReferencia": "14/04/2026",
+      "importe": 11.14624,
+      "adjudicatario": "ALBERTO GALLEGO GARCIA",
+      "fechas": null,
+      "sourceUrl": "https://contrataciondelestado.es/wps/portal/plataforma/perfil_contratante/lista_perfiles/!ut/p/z1/jY9LT8MwEIR_C4dc7SVpU3E0aRqMQDWp4jS-IBNMZVQ_ZFvw9wkPcWvave1q5ptZLPAeCys_9EEm7aw8TvsgymfC6ydCbwpoWlZDftuuysVmWwDkuP8RLItqwe85K3e0AaB3m_VDd72EJi-xuMQPJ4bAZf4ZgZjH91jMR8CfYO7FcyHDVHJ1MqIBvPtmjM4g_WLQmxxVRN6FdFQJcVr3dI2HDN6jzyAoGfWBBTdmQF6NtmRbtf-3ytkUZHLxUVkXVGS_EOI91-oTTQTsTdftQTNjyNUX5Sj1DQ!!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_AVEQAI930GRPE02BR764FO30G0=CZ6_AVEQAI930GRPE02BR764FO3002=LA0=Ecom.ibm.faces.portlet.VIEWID!QCPjspQCPreasigProcQCPAdminAOCReasigProcContratosMenoresPortletAppView.jsp==/#Z7_AVEQAI930GRPE02BR764FO30G0",
+      "rawPayload": {
+        "expediente": "44191/2026",
+        "contractType": "Servicios",
+        "objeto": "MSE 42/26 Contratación de Servicio consistente en Dirección de Obra circunscrita a la obra \"Actuaciones varias de mejora del CEIP Nuestra Señora del Carmen\", T. M. Marbella",
+        "estado": "Resuelta",
+        "fechaReferencia": "14/04/2026",
+        "importeRaw": "11,146.24",
+        "adjudicatario": "ALBERTO GALLEGO GARCIA",
+        "fechas": null
+      }
+    },
+    {
+      "sourceType": "contrato_menor",
+      "expediente": "52466/2026",
+      "contractType": "Servicios",
+      "objeto": "MSE 229/26 Contratación de Servicio consistente en redacción de proyecto de kiosco en Plaza de Los Enamorados, calle Jacinto Benavente, T. M. Marbella",
+      "estado": "Resuelta",
+      "fechaReferencia": "04/05/2026",
+      "importe": 9.875,
+      "adjudicatario": "ALBERTO GALLEGO GARCIA",
+      "fechas": null,
+      "sourceUrl": "https://contrataciondelestado.es/wps/portal/plataforma/perfil_contratante/lista_perfiles/!ut/p/z1/jY9LT8MwEIR_C4dc7SVpU3E0aRqMQDWp4jS-IBNMZVQ_ZFvw9wkPcWvave1q5ptZLPAeCys_9EEm7aw8TvsgymfC6ydCbwpoWlZDftuuysVmWwDkuP8RLItqwe85K3e0AaB3m_VDd72EJi-xuMQPJ4bAZf4ZgZjH91jMR8CfYO7FcyHDVHJ1MqIBvPtmjM4g_WLQmxxVRN6FdFQJcVr3dI2HDN6jzyAoGfWBBTdmQF6NtmRbtf-3ytkUZHLxUVkXVGS_EOI91-oTTQTsTdftQTNjyNUX5Sj1DQ!!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_AVEQAI930GRPE02BR764FO30G0=CZ6_AVEQAI930GRPE02BR764FO3002=LA0=Ecom.ibm.faces.portlet.VIEWID!QCPjspQCPreasigProcQCPAdminAOCReasigProcContratosMenoresPortletAppView.jsp==/#Z7_AVEQAI930GRPE02BR764FO30G0",
+      "rawPayload": {
+        "expediente": "52466/2026",
+        "contractType": "Servicios",
+        "objeto": "MSE 229/26 Contratación de Servicio consistente en redacción de proyecto de kiosco en Plaza de Los Enamorados, calle Jacinto Benavente, T. M. Marbella",
+        "estado": "Resuelta",
+        "fechaReferencia": "04/05/2026",
+        "importeRaw": "9,875.00",
+        "adjudicatario": "ALBERTO GALLEGO GARCIA",
+        "fechas": null
+      }
+    },
+    {
+      "sourceType": "contrato_menor",
+      "expediente": "53171/2026",
+      "contractType": "Servicios",
+      "objeto": "MSE 228/26 Contratación de Servicio consistente en redacción de proyecto para la ejecución de las obra de acondicionamiento del parque Maribel Notario, T. M. Marbella",
+      "estado": "Resuelta",
+      "fechaReferencia": "04/05/2026",
+      "importe": 9.1,
+      "adjudicatario": "ALBERTO GALLEGO GARCIA",
+      "fechas": null,
+      "sourceUrl": "https://contrataciondelestado.es/wps/portal/plataforma/perfil_contratante/lista_perfiles/!ut/p/z1/jY9LT8MwEIR_C4dc7SVpU3E0aRqMQDWp4jS-IBNMZVQ_ZFvw9wkPcWvave1q5ptZLPAeCys_9EEm7aw8TvsgymfC6ydCbwpoWlZDftuuysVmWwDkuP8RLItqwe85K3e0AaB3m_VDd72EJi-xuMQPJ4bAZf4ZgZjH91jMR8CfYO7FcyHDVHJ1MqIBvPtmjM4g_WLQmxxVRN6FdFQJcVr3dI2HDN6jzyAoGfWBBTdmQF6NtmRbtf-3ytkUZHLxUVkXVGS_EOI91-oTTQTsTdftQTNjyNUX5Sj1DQ!!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_AVEQAI930GRPE02BR764FO30G0=CZ6_AVEQAI930GRPE02BR764FO3002=LA0=Ecom.ibm.faces.portlet.VIEWID!QCPjspQCPreasigProcQCPAdminAOCReasigProcContratosMenoresPortletAppView.jsp==/#Z7_AVEQAI930GRPE02BR764FO30G0",
+      "rawPayload": {
+        "expediente": "53171/2026",
+        "contractType": "Servicios",
+        "objeto": "MSE 228/26 Contratación de Servicio consistente en redacción de proyecto para la ejecución de las obra de acondicionamiento del parque Maribel Notario, T. M. Marbella",
+        "estado": "Resuelta",
+        "fechaReferencia": "04/05/2026",
+        "importeRaw": "9,100.00",
+        "adjudicatario": "ALBERTO GALLEGO GARCIA",
+        "fechas": null
+      }
+    },
+    {
+      "sourceType": "contrato_menor",
+      "expediente": "47169/2026",
+      "contractType": "Servicios",
+      "objeto": "MSE 205/26 Contratación de Servicio consistente en organización, gestión y Desarrollo del Primer programa de Participación Ciudadana \"Participación +\"",
+      "estado": "Resuelta",
+      "fechaReferencia": "21/04/2026",
+      "importe": 9.965,
+      "adjudicatario": "ALBERTO MENDOZA MORAN",
+      "fechas": null,
+      "sourceUrl": "https://contrataciondelestado.es/wps/portal/plataforma/perfil_contratante/lista_perfiles/!ut/p/z1/jY9LT8MwEIR_C4dc7SVpU3E0aRqMQDWp4jS-IBNMZVQ_ZFvw9wkPcWvave1q5ptZLPAeCys_9EEm7aw8TvsgymfC6ydCbwpoWlZDftuuysVmWwDkuP8RLItqwe85K3e0AaB3m_VDd72EJi-xuMQPJ4bAZf4ZgZjH91jMR8CfYO7FcyHDVHJ1MqIBvPtmjM4g_WLQmxxVRN6FdFQJcVr3dI2HDN6jzyAoGfWBBTdmQF6NtmRbtf-3ytkUZHLxUVkXVGS_EOI91-oTTQTsTdftQTNjyNUX5Sj1DQ!!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_AVEQAI930GRPE02BR764FO30G0=CZ6_AVEQAI930GRPE02BR764FO3002=LA0=Ecom.ibm.faces.portlet.VIEWID!QCPjspQCPreasigProcQCPAdminAOCReasigProcContratosMenoresPortletAppView.jsp==/#Z7_AVEQAI930GRPE02BR764FO30G0",
+      "rawPayload": {
+        "expediente": "47169/2026",
+        "contractType": "Servicios",
+        "objeto": "MSE 205/26 Contratación de Servicio consistente en organización, gestión y Desarrollo del Primer programa de Participación Ciudadana \"Participación +\"",
+        "estado": "Resuelta",
+        "fechaReferencia": "21/04/2026",
+        "importeRaw": "9,965.00",
+        "adjudicatario": "ALBERTO MENDOZA MORAN",
+        "fechas": null
+      }
+    },
+    {
+      "sourceType": "contrato_menor",
+      "expediente": "40264/2026",
+      "contractType": "Servicios",
+      "objeto": "MSE 179/26 Contratación de Servicio consistente en arte final, diseño, creatividad y adaptaciones para acciones de la Delegación de Participación Ciudadana",
+      "estado": "Resuelta",
+      "fechaReferencia": "06/04/2026",
+      "importe": 1.144,
+      "adjudicatario": "ALEJANDRO GONZALEZ VAZQUEZ",
+      "fechas": null,
+      "sourceUrl": "https://contrataciondelestado.es/wps/portal/plataforma/perfil_contratante/lista_perfiles/!ut/p/z1/jY9LT8MwEIR_C4dc7SVpU3E0aRqMQDWp4jS-IBNMZVQ_ZFvw9wkPcWvave1q5ptZLPAeCys_9EEm7aw8TvsgymfC6ydCbwpoWlZDftuuysVmWwDkuP8RLItqwe85K3e0AaB3m_VDd72EJi-xuMQPJ4bAZf4ZgZjH91jMR8CfYO7FcyHDVHJ1MqIBvPtmjM4g_WLQmxxVRN6FdFQJcVr3dI2HDN6jzyAoGfWBBTdmQF6NtmRbtf-3ytkUZHLxUVkXVGS_EOI91-oTTQTsTdftQTNjyNUX5Sj1DQ!!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_AVEQAI930GRPE02BR764FO30G0=CZ6_AVEQAI930GRPE02BR764FO3002=LA0=Ecom.ibm.faces.portlet.VIEWID!QCPjspQCPreasigProcQCPAdminAOCReasigProcContratosMenoresPortletAppView.jsp==/#Z7_AVEQAI930GRPE02BR764FO30G0",
+      "rawPayload": {
+        "expediente": "40264/2026",
+        "contractType": "Servicios",
+        "objeto": "MSE 179/26 Contratación de Servicio consistente en arte final, diseño, creatividad y adaptaciones para acciones de la Delegación de Participación Ciudadana",
+        "estado": "Resuelta",
+        "fechaReferencia": "06/04/2026",
+        "importeRaw": "1,144.00",
+        "adjudicatario": "ALEJANDRO GONZALEZ VAZQUEZ",
+        "fechas": null
+      }
+    },
+    {
+      "sourceType": "contrato_menor",
+      "expediente": "52825/2026",
+      "contractType": "Servicios",
+      "objeto": "MSE 235/26 Contratación del Servicio \"Actuaciones Muniscales y Animación para eventos premios Cruces de Mayo de Marbella 2026\"",
+      "estado": "Resuelta",
+      "fechaReferencia": "04/05/2026",
+      "importe": 5.07,
+      "adjudicatario": "ALEJANDRO REYES MUÑOZ, ARACELI GONZÁLEZ SÁNCHEZ, ASOCIACIÓN CULTURAL CARNAVALESCA MARBELLÍ, MIGUEL ORTIZ RUVIRA, MIGUEL ÁNGEL GONZÁLEZ MUÑOZ",
+      "fechas": null,
+      "sourceUrl": "https://contrataciondelestado.es/wps/portal/plataforma/perfil_contratante/lista_perfiles/!ut/p/z1/jY9LT8MwEIR_C4dc7SVpU3E0aRqMQDWp4jS-IBNMZVQ_ZFvw9wkPcWvave1q5ptZLPAeCys_9EEm7aw8TvsgymfC6ydCbwpoWlZDftuuysVmWwDkuP8RLItqwe85K3e0AaB3m_VDd72EJi-xuMQPJ4bAZf4ZgZjH91jMR8CfYO7FcyHDVHJ1MqIBvPtmjM4g_WLQmxxVRN6FdFQJcVr3dI2HDN6jzyAoGfWBBTdmQF6NtmRbtf-3ytkUZHLxUVkXVGS_EOI91-oTTQTsTdftQTNjyNUX5Sj1DQ!!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_AVEQAI930GRPE02BR764FO30G0=CZ6_AVEQAI930GRPE02BR764FO3002=LA0=Ecom.ibm.faces.portlet.VIEWID!QCPjspQCPreasigProcQCPAdminAOCReasigProcContratosMenoresPortletAppView.jsp==/#Z7_AVEQAI930GRPE02BR764FO30G0",
+      "rawPayload": {
+        "expediente": "52825/2026",
+        "contractType": "Servicios",
+        "objeto": "MSE 235/26 Contratación del Servicio \"Actuaciones Muniscales y Animación para eventos premios Cruces de Mayo de Marbella 2026\"",
+        "estado": "Resuelta",
+        "fechaReferencia": "04/05/2026",
+        "importeRaw": "5,070.00",
+        "adjudicatario": "ALEJANDRO REYES MUÑOZ, ARACELI GONZÁLEZ SÁNCHEZ, ASOCIACIÓN CULTURAL CARNAVALESCA MARBELLÍ, MIGUEL ORTIZ RUVIRA, MIGUEL ÁNGEL GONZÁLEZ MUÑOZ",
+        "fechas": null
+      }
+    }
+  ]
+}

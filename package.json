@@ -1,10 +1,18 @@
 {
   "name": "contratos-scraping-nuevo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Scraping + API + frontend para contratos y licitaciones",
   "main": "licitaciones.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:api": "npm --prefix apps/api run dev",
+    "dev:web": "npm --prefix apps/web run dev",
+    "start:api": "npm --prefix apps/api run start",
+    "install:apps": "npm --prefix apps/api install && npm --prefix apps/web install",
+    "docker:up": "docker compose up -d --build",
+    "docker:down": "docker compose down",
+    "docker:logs": "docker compose logs -f",
+    "legacy:licitaciones": "node licitaciones.js",
+    "legacy:contratos": "node contratos_menores.js"
   },
   "keywords": [],
   "author": "",
