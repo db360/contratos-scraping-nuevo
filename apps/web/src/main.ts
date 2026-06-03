@@ -47,6 +47,21 @@ const reloadBtn = document.querySelector("#reloadBtn") as HTMLButtonElement;
 const resultsEl = document.querySelector("#results") as HTMLElement;
 const statsEl = document.querySelector("#stats") as HTMLElement;
 
+const eurFormatter = new Intl.NumberFormat("es-ES", {
+  style: "currency",
+  currency: "EUR",
+  minimumFractionDigits: 2,
+  maximumFractionDigits: 2,
+});
+
+function formatImporte(value: number | null): string {
+  if (value === null || Number.isNaN(value)) {
+    return "-";
+  }
+
+  return eurFormatter.format(value);
+}
+
 async function fetchContracts(): Promise<ContractsResponse> {
   const sourceType = sourceTypeSelect.value;
   const params = new URLSearchParams({ limit: "100", offset: "0" });
@@ -96,7 +111,7 @@ function renderRows(items: ContractItem[]): void {
         <ul>
           <li><strong>Tipo:</strong> ${item.contractType || "-"}</li>
           <li><strong>Estado:</strong> ${item.estado || "-"}</li>
-          <li><strong>Importe:</strong> ${item.importe ?? "-"}</li>
+          <li><strong>Importe:</strong> ${formatImporte(item.importe)}</li>
           <li><strong>Fecha:</strong> ${item.fechaReferencia || item.fechas || "-"}</li>
           <li><strong>Adjudicatario:</strong> ${adjudicatarioText}</li>
         </ul>

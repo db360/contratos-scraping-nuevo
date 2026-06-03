@@ -59,6 +59,51 @@ const fs = require("fs/promises");
       );
       return rows.map((row) => {
         const cells = Array.from(row.querySelectorAll("td"));
+        const parseAmount = (raw) => {
+          const clean = String(raw || "")
+            .replace(/EUR|€/gi, "")
+            .replace(/\s+/g, "")
+            .replace(/[^\d,.-]/g, "");
+
+          if (!clean || !/\d/.test(clean)) {
+            return null;
+          }
+
+          const lastComma = clean.lastIndexOf(",");
+          const lastDot = clean.lastIndexOf(".");
+
+          let decimalSeparator = null;
+          if (lastComma >= 0 && lastDot >= 0) {
+            decimalSeparator = lastComma > lastDot ? "," : ".";
+          } else {
+            const separator = lastComma >= 0 ? "," : lastDot >= 0 ? "." : null;
+            if (separator) {
+              const escapedSeparator = separator === "." ? /\./g : /,/g;
+              const occurrences = (clean.match(escapedSeparator) || []).length;
+              const idx = separator === "," ? lastComma : lastDot;
+              const digitsAfter = clean.length - idx - 1;
+
+              if (occurrences === 1 && digitsAfter > 0 && digitsAfter <= 2) {
+                decimalSeparator = separator;
+              }
+            }
+          }
+
+          let normalized = clean;
+          if (decimalSeparator) {
+            const thousandSeparator = decimalSeparator === "," ? /\./g : /,/g;
+            normalized = normalized.replace(thousandSeparator, "");
+            if (decimalSeparator === ",") {
+              normalized = normalized.replace(",", ".");
+            }
+          } else {
+            normalized = normalized.replace(/[.,]/g, "");
+          }
+
+          normalized = normalized.replace(/(?!^)-/g, "");
+          const amount = Number(normalized);
+          return Number.isFinite(amount) ? amount : null;
+        };
 
         // Dividir el campo estado por \n
         const estadoText = cells[3]?.innerText.trim() || "";
@@ -72,9 +117,7 @@ const fs = require("fs/promises");
           objeto: cells[2]?.innerText.trim().replace(/,/g, ";") || "",
           estado: estado || "", // Guarda la primera parte como estado
           fecha: fecha.replace('Adjudicación:', "") || "", // Guarda la segunda parte como fecha
-          importe: parseFloat(
-            cells[4]?.innerText.trim().replace(/\./g, "").replace(",", ".") || ""
-          ),
+          importe: parseAmount(cells[4]?.innerText.trim()),
           adjudicatario: cells[5]?.innerText.trim().split(",").join(", ") || "",
         };
       });

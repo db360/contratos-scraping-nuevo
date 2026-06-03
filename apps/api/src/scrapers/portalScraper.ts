@@ -9,6 +9,9 @@ const PERFIL_SEARCH_INPUT_ID =
   "viewns_Z7_AVEQAI930GRPE02BR764FO30G0_:listaperfiles:texoorgano";
 const PERFIL_SEARCH_BUTTON_ID =
   "viewns_Z7_AVEQAI930GRPE02BR764FO30G0_:listaperfiles:botonbuscar";
+const CONTRATO_MENOR_MIN_DATE_INPUT_ID =
+  "viewns_Z7_AVEQAI930GRPE02BR764FO30G0_:form1:textMinFecAnuncioMAQ2";
+const CONTRATO_MENOR_MIN_DATE_VALUE = "01-01-2000";
 
 const ENTRY_SELECTORS: Record<SourceType, string[]> = {
   contrato_menor: [
@@ -51,11 +54,47 @@ function parseImporte(value: string | null): number | null {
     return null;
   }
 
-  const normalized = String(value)
+  const clean = String(value)
     .replace(/EUR|€/gi, "")
-    .replace(/\./g, "")
-    .replace(/,/g, ".")
-    .trim();
+    .replace(/\s+/g, "")
+    .replace(/[^\d,.-]/g, "");
+
+  if (!clean || !/\d/.test(clean)) {
+    return null;
+  }
+
+  const lastComma = clean.lastIndexOf(",");
+  const lastDot = clean.lastIndexOf(".");
+
+  let decimalSeparator: "," | "." | null = null;
+  if (lastComma >= 0 && lastDot >= 0) {
+    decimalSeparator = lastComma > lastDot ? "," : ".";
+  } else {
+    const separator = lastComma >= 0 ? "," : lastDot >= 0 ? "." : null;
+    if (separator) {
+      const escapedSeparator = separator === "." ? /\./g : /,/g;
+      const occurrences = (clean.match(escapedSeparator) || []).length;
+      const idx = separator === "," ? lastComma : lastDot;
+      const digitsAfter = clean.length - idx - 1;
+
+      if (occurrences === 1 && digitsAfter > 0 && digitsAfter <= 2) {
+        decimalSeparator = separator;
+      }
+    }
+  }
+
+  let normalized = clean;
+  if (decimalSeparator) {
+    const thousandSeparator = decimalSeparator === "," ? /\./g : /,/g;
+    normalized = normalized.replace(thousandSeparator, "");
+    if (decimalSeparator === ",") {
+      normalized = normalized.replace(",", ".");
+    }
+  } else {
+    normalized = normalized.replace(/[.,]/g, "");
+  }
+
+  normalized = normalized.replace(/(?!^)-/g, "");
 
   const amount = Number(normalized);
   return Number.isFinite(amount) ? amount : null;
@@ -311,6 +350,66 @@ async function collectRows(page: Page, sourceType: SourceType): Promise<RawRow[]
   return rows;
 }
 
+async function applyContratoMenorMinDateFilter(page: Page): Promise<void> {
+  const minDateSelector = `input[id="${CONTRATO_MENOR_MIN_DATE_INPUT_ID}"]`;
+  const hasMinDateInput = Boolean(await page.$(minDateSelector));
+
+  if (!hasMinDateInput) {
+    return;
+  }
+
+  await page.evaluate(
+    ({ inputId, value }) => {
+      const input = document.querySelector<HTMLInputElement>(`input[id="${inputId}"]`);
+      if (!input) {
+        return;
+      }
+
+      input.focus();
+      input.value = value;
+      input.dispatchEvent(new Event("input", { bubbles: true }));
+      input.dispatchEvent(new Event("change", { bubbles: true }));
+
+      const controls = Array.from(
+        document.querySelectorAll<HTMLInputElement | HTMLButtonElement>(
+          "input[type='submit'], input[type='button'], button"
+        )
+      );
+
+      const normalize = (raw: string) =>
+        raw
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .toLowerCase();
+
+      const submitControl = controls.find((control) => {
+        const text = normalize(
+          [
+            control.getAttribute("id") || "",
+            control.getAttribute("name") || "",
+            control.getAttribute("value") || "",
+            control.getAttribute("title") || "",
+            control.textContent || "",
+          ].join(" ")
+        );
+
+        return text.includes("buscar") || text.includes("filtrar") || text.includes("consultar");
+      });
+
+      submitControl?.click();
+    },
+    {
+      inputId: CONTRATO_MENOR_MIN_DATE_INPUT_ID,
+      value: CONTRATO_MENOR_MIN_DATE_VALUE,
+    }
+  );
+
+  await Promise.race([
+    page.waitForNavigation({ waitUntil: "networkidle2", timeout: 15000 }),
+    page.waitForSelector("#tableLicitacionesPerfilContratante tbody", { timeout: 15000 }),
+  ]).catch(() => undefined);
+}
+
 export async function scrapePortal(options: ScrapeOptions): Promise<ContractRecord[]> {
   const browser: Browser = await puppeteer.launch({
     headless: options.headless,
@@ -355,7 +454,7 @@ export async function scrapePortal(options: ScrapeOptions): Promise<ContractReco
       const keywords =
         options.sourceType === "contrato_menor"
           ? ["contratos menores", "minor contracts", "menores"]
-          : ["licitaciones", "tender", "procurement", "anuncios"]; 
+          : ["licitaciones", "tender", "procurement", "anuncios"];
 
       const href = await page.evaluate((words) => {
         const nodes = Array.from(
@@ -426,6 +525,10 @@ export async function scrapePortal(options: ScrapeOptions): Promise<ContractReco
           `No se encontro acceso a ${options.sourceType} desde el perfil. URL: ${page.url()}. Controles detectados: ${controls.join(" || ")}`
         );
       }
+    }
+
+    if (options.sourceType === "contrato_menor") {
+      await applyContratoMenorMinDateFilter(page);
     }
 
     const rawRows = await collectRows(page, options.sourceType);

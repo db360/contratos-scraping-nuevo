@@ -40,11 +40,48 @@ function toImporte(value: unknown): number | null {
     return null;
   }
 
-  const normalized = value
+  const clean = value
     .replace(/EUR|€/gi, "")
-    .replace(/\./g, "")
-    .replace(/,/g, ".")
+    .replace(/\s+/g, "")
+    .replace(/[^\d,.-]/g, "")
     .trim();
+
+  if (!clean || !/\d/.test(clean)) {
+    return null;
+  }
+
+  const lastComma = clean.lastIndexOf(",");
+  const lastDot = clean.lastIndexOf(".");
+
+  let decimalSeparator: "," | "." | null = null;
+  if (lastComma >= 0 && lastDot >= 0) {
+    decimalSeparator = lastComma > lastDot ? "," : ".";
+  } else {
+    const separator = lastComma >= 0 ? "," : lastDot >= 0 ? "." : null;
+    if (separator) {
+      const escapedSeparator = separator === "." ? /\./g : /,/g;
+      const occurrences = (clean.match(escapedSeparator) || []).length;
+      const idx = separator === "," ? lastComma : lastDot;
+      const digitsAfter = clean.length - idx - 1;
+
+      if (occurrences === 1 && digitsAfter > 0 && digitsAfter <= 2) {
+        decimalSeparator = separator;
+      }
+    }
+  }
+
+  let normalized = clean;
+  if (decimalSeparator) {
+    const thousandSeparator = decimalSeparator === "," ? /\./g : /,/g;
+    normalized = normalized.replace(thousandSeparator, "");
+    if (decimalSeparator === ",") {
+      normalized = normalized.replace(",", ".");
+    }
+  } else {
+    normalized = normalized.replace(/[.,]/g, "");
+  }
+
+  normalized = normalized.replace(/(?!^)-/g, "");
 
   const amount = Number(normalized);
   return Number.isFinite(amount) ? amount : null;
